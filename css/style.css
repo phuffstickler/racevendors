@@ -1,0 +1,177 @@
+* { 
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+	-webkit-background-size-adjust: none;
+	-ms-text-size-adjust:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	outline: none;
+}
+
+a:link{text-decoration:none;color:#37a8e6}
+a:visited{text-decoration:none;color:#5CC0F7}
+a:active{text-decoration:none;color:#37a8e6}
+a:hover{text-decoration:none;color:#5CC0F7}
+
+
+
+
+#quickNav{margin:0 9px 0 9px;padding:5px; clear:left; font-size:18px; line-height: 27px}
+#quickNav a{margin-right:5px}
+
+
+#filterContainer{
+border:1px solid #676767; margin:0 0 10px 10px; padding:5px 0 4px 0; width:298px;
+-moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -khtml-border-radius: 13px;
+    border-radius: 13px;
+    float:left; }
+    
+    
+img{border:0}
+body { 
+
+	margin:0 0 0 0;  
+	padding:0; 
+	background:url('/img/bg_tile.png') no-repeat #000;
+	background-size:120%; 
+	color:#fff;
+	font: 14px arial, sans-serif; 
+	}
+
+
+.disabledSelect,#eventName,#vendorList,.vendor,#footer,#header,#mainSponsors,#filterLabel,#filterIcon{
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	user-select: none;
+}
+
+input{
+	letter-spacing: 1px;
+	-webkit-text-size-adjust: none;  
+	outline:none;
+	font-weight: bold;
+	color:#000000;
+	background-color: #fff;
+	border:1px #fff solid; 
+	border-radius:25px; 
+	-moz-border-radius:25px; 
+	-webkit-border-radius:25px; 
+	font-size:19px; 
+	padding:5px 40px 5px 31px; 
+	width:230px; 
+	height:33px; 
+	margin:0 0 4px 7px; /* !! IF android make top 0 */
+	text-align:left;
+	-moz-box-shadow:    inset 0 0 6px rgba(68,68,68,0.4);
+-webkit-box-shadow: inset 0 0 6px rgba(68,68,68,0.4);
+box-shadow:         inset 0 0 6px rgba(68,68,68,0.4);
+	
+	}
+
+#header{
+position:relative;
+-moz-box-shadow: 0 0 8px #7b7b7b;
+-webkit-box-shadow: 0 0 8px #7b7b7b;
+box-shadow: 0 0 8px #7b7b7b;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#858584')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#858584');
+
+	z-index:999;
+	top:0;
+	height:34px;
+	
+	padding:22px 0 10px 7px;
+	border-bottom:1px solid #f8f8f8;
+	
+	
+	background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+	
+	background-size:46px;
+	
+	background-image:url('/img/hdr_tile.png');
+}
+
+#mainLogo{text-shadow:0 1px 0 rgba(255, 255, 255, 0.9); color:#999; font-size:42px;width:60px; height:50px; position:relative; top:-16px}
+#mainSponsors{border-bottom:1px solid #595959; z-index: 996;
+/*-moz-box-shadow:    inset 0 0 6px rgba(68,68,68,0.6);
+-webkit-box-shadow: inset 0 0 6px rgba(68,68,68,0.6);
+box-shadow:         inset 0 0 6px rgba(68,68,68,0.6);*/
+}
+
+#filterLabel{padding-left:16px; color:#9d9d9d; font-size:20px; letter-spacing: 1px}
+#filterMenu{cursor:pointer;position: absolute; top:251px; width:298px; height:35px;margin-top:9px; left:15px; z-index: 999; opacity:.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=.01)";
+	filter: alpha(opacity=.01);
+	
+	
+}
+
+#eventMenu{cursor:pointer;position: absolute; top:22px; width:46px; left:7px; height:27px; z-index: 999; opacity:.01;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=.01)";
+	filter: alpha(opacity=.01);
+	
+}
+#mainMenu{float:left; position: absolute; top:19px; *top:5px; cursor:pointer;}
+/*#eventMenu{position: absolute;width:46px; height:27px; z-index: 999; opacity:.5}*/
+
+.icon-reorder{font-size:30px; padding:12px 0 0 6px; color:#b2b2b2}
+.icon-circle-arrow-left{font-size:34px; padding:8px 0 0 3px; color:#c6c5c5}
+
+#query{position:absolute; top:245px; clear:left;background:no-repeat 8px 10px #fff; padding-left:34px; z-index: 997; margin-bottom:10px}
+.icon-globe{font-size:20px}
+.icon-search{color:#ccc; position: relative; top:40px; left:23px; font-size:20px}
+#filterIcon{z-index:998;color:#37a8e6; position: relative; top:0; left:9px; font-size:23px;} /*1476ad   left:248px*/
+#categoryIcon{color:#37a8e6;  font-size:17px; margin:0 4px 0 0} /*1476ad   left:248px*/
+
+/*#search{text-align: center}*/
+#mapBtn{cursor:pointer;padding-top:5px}
+
+#toTopIcon{color:#37a8e6}
+
+.icon-reorder,#refreshBtn{cursor:pointer;text-shadow:0 1px 0 rgba(255, 255, 255, 0.9)}	
+
+#eventInfoBtn{cursor:pointer;color:#37a8e6; margin-left:4px; font-size:18px !important; 
+	}
+#eventName{ color:#e7e7e7; margin:12px 0 11px 7px; width:306px; height:25px;overflow: hidden;letter-spacing: 1px;  font-weight: 700; font-style: italic; 
+}
+/*#legacyInfoIcon{background-image:url('/img/info-icon.png'); font-size:18px; color:#37a8e6}*/
+
+
+#vendorList{padding:0; margin:13px 20px 0 7px; display:block; clear:left}
+/*E0CC94*/
+.vendor{float:left; padding:2px 0 12px 0; width:100%; border-bottom:1px solid #1e1e1e; margin:7px}
+.vendorName{font-size:20px; color:#d5d5d5}
+.vendorPhoneNumber{font-size:18px; font-family: "Arvo","Courier New"; font-weight: bold; letter-spacing: 1px; margin-top:1px}
+.vendorLocation{float:right; margin:0 5px 0 5px; font-size:38px}
+
+
+#toTopBtn{cursor:pointer;clear:left; padding:10px 0 0 6px; color:#8c8c8c;}
+
+
+#video,#audioIntro{position:absolute; top:-40px; left:150px; width:10px; height:10px; z-index: 1}
+
+#footer{font-size:14px; letter-spacing: 1px; color:#555555; text-align: center; clear:left; padding: 10px 0 20px 0}
+.icon-facebook-sign,.icon-twitter-sign{cursor:pointer;font-size:23px; color:#1b97da; padding-left:7px} /*#4a4a4a*/
+.icon-facebook-sign:hover,.icon-twitter-sign:hover{color:#37a8e6}
+
+
+@media all and (min-width: 520px){
+  .vendorName{font-size:28px}
+  .vendorPhoneNumber{font-size:21px}
+  #mapBtn{width:52px; height:52px}
+}
