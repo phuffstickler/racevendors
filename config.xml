@@ -3,72 +3,70 @@
 <widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.racevendors.app" version="3.1" versionCode="126">
 <!-- reverse the app.racevendors.com for android -->
 
-    <name>RaceVendors</name> 
+<name>RaceVendorsDEV</name>
 
-    <description>Welcome Race Fans! RaceVendors helps you find restaurants, pubs and more, all around your favorite race tracks. Be the ultimate race fan by sharing your favorite fan photos!</description>
+<description>Welcome Race Fans! RaceVendors helps you find restaurants, pubs and more, all around your favorite race tracks. Be the ultimate race fan by sharing your favorite fan photos!</description>
 
-    <author href="http://racevendors.com" email="phil@honemedia.com">RaceVendors, LLC</author>
+<author href="http://racevendors.com" email="phil@honemedia.com">RaceVendors, LLC</author>
 
-    <gap:plugin name="com.adobe.plugins.gaplugin" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
-  <gap:plugin name="org.apache.cordova.splashscreen" />
-  <gap:plugin name="nl.x-services.plugins.socialsharing" />
+<gap:plugin name="com.adobe.plugins.gaplugin" />
+<gap:plugin name="com.phonegap.plugin.statusbar" />
+<gap:plugin name="org.apache.cordova.splashscreen" />
+<gap:plugin name="nl.x-services.plugins.socialsharing" />
 
-  <gap:plugin name="org.apache.cordova.device" />
-  <gap:plugin name="org.apache.cordova.inappbrowser" />
-  <gap:plugin name="org.apache.cordova.camera" />
-  <gap:plugin name="org.apache.cordova.file" />
-  <gap:plugin name="org.apache.cordova.file-transfer" />
+<gap:plugin name="org.apache.cordova.device" />
+<gap:plugin name="org.apache.cordova.inappbrowser" />
+<gap:plugin name="org.apache.cordova.camera" />
+<gap:plugin name="org.apache.cordova.file" />
+<gap:plugin name="org.apache.cordova.file-transfer" />
 
+<preference name="android-minSdkVersion" value="7" />
+<preference name="permissions" value="none" />
+<preference name="phonegap-version" value="3.3.0" />
+<preference name="orientation" value="portrait" />
+<preference name="TargetDevice" value="universal" />
+<preference name="fullscreen" value="false" />
+<preference name="webviewbounce" value="false"/>
+<preference name="disallowOverscroll" value="true"/>
+<preference name="StatusBarBackgroundColor" value="#FFFFFF" />
+<preference name="FadeSplashScreen" value="true"/>
+<preference name="FadeSplashScreenDuration" value="1"/>
+<preference name="StatusBarOverlaysWebView" value="false"/>
+<preference name="ShowSplashScreenSpinner" value="false"/>
+<preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+<preference name="prerendered-icon" value="true" />
+<preference name="AutoHideSplashScreen" value="true" />
+<preference name="SplashScreenDelay" value="5000" />
+<preference name="AndroidInstallLocation" value="auto" />
 
-  <preference name="android-minSdkVersion" value="7" />
-    <preference name="permissions" value="none" />
-    <preference name="phonegap-version" value="3.3.0" />
-    <preference name="orientation" value="portrait" />
-    <preference name="TargetDevice" value="universal" /> <!-- all: possible values handset, tablet, or universal -->
-    <preference name="fullscreen" value="false" />
-    <preference name="webviewbounce" value="false"/>
-    <preference name="disallowOverscroll" value="true"/>
-    <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
-  <preference name="FadeSplashScreen" value="true"/>
-  <preference name="FadeSplashScreenDuration" value="1"/>
-    <preference name="StatusBarOverlaysWebView" value="false"/>
-    <preference name="ShowSplashScreenSpinner" value="false"/>
-    <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
-    <preference name="prerendered-icon" value="true" />
-    <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="5000" />
-    <preference name="AndroidInstallLocation" value="auto" />
+<icon src="icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
-  <icon src="icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+<icon src="icons/windows_phone/icon-48.png" gap:platform="winphone" gap:role="background" />
+<icon src="icons/windows_phone/icon-173.png" gap:platform="winphone" gap:role="background" />
 
-    <icon src="icons/windows_phone/icon-48.png" gap:platform="winphone" gap:role="background" />
-    <icon src="icons/windows_phone/icon-173.png" gap:platform="winphone" gap:role="background" />
+<icon src="icons/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icons/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+<icon src="icons/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
 
-    <icon src="icons/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
-    <icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
-    <icon src="icons/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
-    <icon src="icons/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+<gap:splash src="splash.png" />
 
-  <gap:splash src="splash.png" />
+<gap:splash src="ios_splash.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="ios_splash_retina.png" gap:platform="ios" width="640" height="960" />
+<gap:splash src="ios_splash_retina_tall.png" gap:platform="ios" width="640" height="1136" />
+<gap:splash src="splash_ipad_portrait.png" gap:platform="ios" width="768" height="1024" /> 
+<gap:splash src="splash_ipad_portrait_retina.png" gap:platform="ios" width="1536" height="2008" />
 
-    <gap:splash src="ios_splash.png" gap:platform="ios" width="320" height="480" />
-    <gap:splash src="ios_splash_retina.png" gap:platform="ios" width="640" height="960" />
-    <gap:splash src="ios_splash_retina_tall.png" gap:platform="ios" width="640" height="1136" />
-    <gap:splash src="splash_ipad_portrait.png" gap:platform="ios" width="768" height="1024" /> 
-    <gap:splash src="splash_ipad_portrait_retina.png" gap:platform="ios" width="1536" height="2008" />
+<gap:splash src="ios_splash.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="ios_splash_retina.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="ios_splash_retina.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="ios_splash_retina.png" gap:platform="android" gap:density="xhdpi" />
 
-    <gap:splash src="ios_splash.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="ios_splash_retina.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="ios_splash_retina.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="ios_splash_retina.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="480x800_splash.png" gap:platform="winphone" />
 
-    <gap:splash src="480x800_splash.png" gap:platform="winphone" />
-
-    <access origin="*" />
-
+<access origin="*" />
 
 </widget>
