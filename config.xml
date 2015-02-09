@@ -10,15 +10,17 @@
 <author href="http://racevendors.com" email="phil@honemedia.com">RaceVendors, LLC</author>
 
 <gap:plugin name="com.adobe.plugins.gaplugin" />
-<gap:plugin name="com.phonegap.plugin.statusbar" />
+
 <gap:plugin name="org.apache.cordova.splashscreen" />
-<gap:plugin name="nl.x-services.plugins.socialsharing" />
+<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
 
 <gap:plugin name="org.apache.cordova.device" />
 <gap:plugin name="org.apache.cordova.inappbrowser" />
-<gap:plugin name="org.apache.cordova.camera" />
+<!--<gap:plugin name="org.apache.cordova.camera" />
+<gap:plugin name="com.phonegap.plugin.statusbar" />
+<gap:plugin name="nl.x-services.plugins.socialsharing" />
 <gap:plugin name="org.apache.cordova.file" />
-<gap:plugin name="org.apache.cordova.file-transfer" />
+<gap:plugin name="org.apache.cordova.file-transfer" />-->
 
 <preference name="android-minSdkVersion" value="7" />
 <preference name="permissions" value="none" />
