@@ -1,0 +1,111 @@
+* { 
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	outline: none;
+}
+
+a:link{text-decoration:none;color:#157eb9}
+a:visited{text-decoration:none;color:#157eb9}
+a:active{text-decoration:none;color:#157eb9}
+a:hover{text-decoration:none;color:#2c9cda}
+
+body { 
+	margin:0;  
+	padding:0; 
+	background:url('/img/bg_tile.png') no-repeat #000;
+	background-size:100%; 
+	color:#fff;
+	font: 14px arial, sans-serif; 
+	}
+
+
+.disabledSelect{
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	user-select: none;
+}
+
+input{
+	-webkit-text-size-adjust: none;  
+	outline:none;
+	font-weight: bold;
+	color:#000000;
+	background-color: #fff;
+	border:1px #fff solid; 
+	border-radius:25px; 
+	-moz-border-radius:25px; 
+	-webkit-border-radius:25px; 
+	font-size:21px; 
+	padding:5px 18px 5px 14px; 
+	width:245px; 
+	height:37px; 
+	margin:4px 0 4px 11px; 
+	text-align:left;
+	-moz-box-shadow:    inset 0 0 6px rgba(68,68,68,0.4);
+-webkit-box-shadow: inset 0 0 6px rgba(68,68,68,0.4);
+box-shadow:         inset 0 0 6px rgba(68,68,68,0.4);
+	
+	}
+
+#header_disabled{background:url(/img/hdr_tile.png) #000; padding:20px 20px 10px 20px}
+
+#header{
+	/*position:absolute;*/
+	padding:20px 20px 0 13px;
+	border-bottom:1px solid #fff;
+	background: #f9fcf7; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZmNmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWY5ZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #f9fcf7 0%, #f5f9f0 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9fcf7), color-stop(100%,#f5f9f0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f9fcf7 0%,#f5f9f0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=0 ); /* IE6-8 */
+
+	
+}
+
+#mainLogo{text-shadow:0 1px 0 rgba(255, 255, 255, 0.9); color:#999; font-size:42px;width:40px; height:30px; position:relative;left:45%; top:-16px}
+#mainSponsors{border-top:1px #e6e6e6 solid; 
+/*-moz-box-shadow:    inset 0 0 6px rgba(68,68,68,0.6);
+-webkit-box-shadow: inset 0 0 6px rgba(68,68,68,0.6);
+box-shadow:         inset 0 0 6px rgba(68,68,68,0.6);*/
+}
+
+#filterMenu{position: absolute; top:270px; width:1px; height:1px; left:-60px; z-index: 1}
+#eventMenu{position: absolute; top:-200px}
+#mainMenu{float:left; position: absolute; top:10px}
+.icon-reorder{font-size:33px; padding-top:3px; color:#616161 !important}
+
+#query{clear:left;background:no-repeat 8px 10px #fff; padding-left:32px; z-index: 999; margin-bottom:10px}
+.icon-globe{font-size:20px}
+.icon-search{color:#ccc; position: relative; top:40px; left:23px; font-size:20px}
+#filterIcon{z-index:999;color:#000;  position: relative; top:41px; left:248px; font-size:25px} /*157eb9*/
+/*#search{text-align: center}*/
+
+
+
+
+.icon-reorder,.icon-caret-down,.icon-search{text-shadow:0 1px 0 rgba(255, 255, 255, 0.9)}	
+
+
+#eventName{font-size:25px; text-align: center; color:#e7e7e7; margin:7px 0 0 0;  font-weight: 700; font-style: italic}
+
+#vendorList{padding:0; margin:0 20px 0 7px}
+/*E0CC94*/
+.vendor{float:left; padding:5px 0 8px 0; width:100%; border-bottom:1px solid #2c2c2c; margin:7px}
+.vendorName{font-size:20px; letter-spacing: 1px; color:#f2f2f2}
+.vendorPhoneNumber{font-size:21px; font-family: "Courier New"}
+.vendorLocation{float:right; margin:0 5px 0 5px; font-size:38px}
+
+#footer{font-size:14px; letter-spacing: 1px; color:#343434; text-align: center; clear:left; padding: 21px 0 15px 0}
+.icon-facebook-sign,.icon-twitter-sign{font-size:22px; color:#4a4a4a}
+
+
